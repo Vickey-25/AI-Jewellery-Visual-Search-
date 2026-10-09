@@ -1,0 +1,20 @@
+{
+  "status": "validated",
+  "recommended_threshold": 0.8,
+  "conservative_threshold": 1.0,
+  "permissive_threshold": 0.35,
+  "calibration_positive_count": 80,
+  "calibration_negative_count": 82,
+  "validation_positive_count": 24,
+  "validation_negative_count": 25,
+  "metrics": {
+    "false_positive_rate": 0.0,
+    "false_negative_rate": 0.0,
+    "positive_recall": 1.0,
+    "precision": 1.0,
+    "f1_score": 1.0,
+    "accuracy": 1.0,
+    "auc_score": 1.0
+  },
+  "generated_at": "2026-10-08T15:28:07.939681"
+}

@@ -1,0 +1,32 @@
+.env
+.venv/
+__pycache__/
+*.pyc
+node_modules/
+dist/
+.vscode/
+.idea/
+*.log
+backend/data/index/*.index
+backend/data/index/*.json
+backend/data/index/*.tmp
+evaluation/results/*.json
+# Large datasets
+public-data/dataset.zip
+public-data/jewelry-design-dataset/
+
+# Local jewellery image collection
+backend/data/images/
+
+# Generated AI index
+backend/data/index/
+
+# Python and frontend dependencies
+.venv/
+backend/.venv/
+frontend/node_modules/
+
+# Secrets
+.env
+.env.*
+!.env.example

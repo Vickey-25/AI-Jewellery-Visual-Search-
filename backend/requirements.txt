@@ -1,0 +1,19 @@
+# Core web stack
+fastapi>=0.115,<1.0
+uvicorn>=0.30,<1.0
+pydantic>=2.7,<3.0
+email-validator>=2.0
+python-multipart>=0.0.9
+python-dotenv>=1.0
+
+# Database (psycopg[binary] bundles libpq, so no extra Windows install is needed)
+sqlalchemy>=2.0.30,<2.1
+alembic>=1.13,<2.0
+psycopg[binary]>=3.2,<4.0
+
+# Images + AI (on Windows, the default PyPI torch/torchvision wheels are CPU-only)
+pillow>=10.3
+numpy>=1.26
+torch>=2.3
+open_clip_torch>=2.26
+faiss-cpu>=1.8

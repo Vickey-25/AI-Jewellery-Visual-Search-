@@ -1,0 +1,84 @@
+{
+  "timestamp": "2026-10-08T15:30:47.669680",
+  "evaluation_mode": "Production SearchService (Service-Level)",
+  "total_queries_submitted": 80,
+  "valid_queries": 80,
+  "invalid_queries": 0,
+  "overall_metrics": {
+    "recall_at_1": 0.9875,
+    "recall_at_5": 1.0,
+    "recall_at_10": 1.0,
+    "mrr": 0.9917,
+    "category_accuracy": 1.0,
+    "top5_category_purity": 0.95,
+    "top10_category_purity": 0.9425
+  },
+  "positive_similarity_distribution": {
+    "average_top1_similarity": 0.9265,
+    "average_correct_match_similarity": 0.9264,
+    "min_correct_match_similarity": 0.8204,
+    "p10_correct_match_similarity": 0.8695,
+    "p25_correct_match_similarity": 0.9063,
+    "median_correct_match_similarity": 0.9329,
+    "p75_correct_match_similarity": 0.957,
+    "p90_correct_match_similarity": 0.9747,
+    "max_correct_match_similarity": 1.0
+  },
+  "latency_ms": {
+    "label": "Production SearchService (Service-Level)",
+    "average_ms": 126.17,
+    "p50_ms": 119.99,
+    "p95_ms": 171.16,
+    "min_ms": 99.15,
+    "max_ms": 243.67
+  },
+  "rank_distribution": {
+    "Rank 1": 79,
+    "Rank 2": 0,
+    "Rank 3": 1,
+    "Rank 4": 0,
+    "Rank 5": 0,
+    "Rank 6-10": 0,
+    "Not Found": 0
+  },
+  "category_metrics": {
+    "Bracelet": {
+      "queries": 20,
+      "recall_at_1": 1.0,
+      "recall_at_5": 1.0,
+      "recall_at_10": 1.0,
+      "mrr": 1.0,
+      "category_accuracy": 1.0,
+      "average_latency_ms": 121.37
+    },
+    "Earrings": {
+      "queries": 20,
+      "recall_at_1": 0.95,
+      "recall_at_5": 1.0,
+      "recall_at_10": 1.0,
+      "mrr": 0.9667,
+      "category_accuracy": 1.0,
+      "average_latency_ms": 120.98
+    },
+    "Necklace": {
+      "queries": 20,
+      "recall_at_1": 1.0,
+      "recall_at_5": 1.0,
+      "recall_at_10": 1.0,
+      "mrr": 1.0,
+      "category_accuracy": 1.0,
+      "average_latency_ms": 124.46
+    },
+    "Ring": {
+      "queries": 20,
+      "recall_at_1": 1.0,
+      "recall_at_5": 1.0,
+      "recall_at_10": 1.0,
+      "mrr": 1.0,
+      "category_accuracy": 1.0,
+      "average_latency_ms": 137.87
+    }
+  },
+  "failed_queries_count": 0,
+  "invalid_rows_detail": []
+}
